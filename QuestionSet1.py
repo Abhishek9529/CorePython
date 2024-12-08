@@ -2,15 +2,15 @@
 # a = 10 
 # b = 20
 # print (f"Before Swaping  Values of a = {a} And b = {b}")
-# c = a
-# a = b
-# b = c
+# a, b = b, a
 # print (f"After Swaping  Values of a = {a} And b = {b}")
 
 
 # Q2. Write a program that takes input from the user and checks its data type.
-try :
-    a = int(input("Enter the Value : "))
-    print(f" The type of a is : {type(a)}")
-except ValueError as e:
-    print("Entered Value is Not a Int")
+# a = input("Enter the Value : ")
+# if a.isdigit():
+#     print(f"The value is int")
+# elif a.replace(".", "", 1).isdigit():
+#     print("The value is float ")
+# else :
+#     print("The value is string")
