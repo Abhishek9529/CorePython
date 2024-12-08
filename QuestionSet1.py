@@ -43,3 +43,11 @@
 # print(f"Modulus : {a%b}")
 
 
+# Q5. Take a string input and check if it is a palindrome.
+# string = input("Enter Any String : ")
+# if string == string[::-1]:
+#     print(f"{string} is palindrome string.")
+# else :
+#     print(f"{string} is not palindrome string.")
+
+
