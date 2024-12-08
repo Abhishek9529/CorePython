@@ -33,11 +33,22 @@
 # print(f"{celsius}°C is equal to {fahrenheit}°F")
 
 
-# Take two numbers as input and perform all basic arithmetic operations: addition, subtraction, multiplication, division, and modulus.
-a , b = 10 , 5
-print(f"Value of a : {a}  \nValue of b : {b}")
-print(f"Addition : {a+b}")
-print(f"Subtraction : {a-b}")
-print(f"Multiplaction : {a*b}")
-print(f"Division : {a/b}")
-print(f"Modulus : {a%b}")
+#Q4. Take two numbers as input and perform all basic arithmetic operations: addition, subtraction, multiplication, division, and modulus.
+# a , b = 10 , 5
+# print(f"Value of a : {a}  \nValue of b : {b}")
+# print(f"Addition : {a+b}")
+# print(f"Subtraction : {a-b}")
+# print(f"Multiplaction : {a*b}")
+# print(f"Division : {a/b}")
+# print(f"Modulus : {a%b}")
+
+
+# Q5. Take a string input and check if it is a palindrome.
+# Example:
+# Input: madam
+
+name = input("Enter Any string : ")
+if name == name[::-1]:
+    print(f"{name} is Palindrome string")
+else :
+    print(f"{name} is not palindrome string")
