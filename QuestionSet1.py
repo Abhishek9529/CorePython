@@ -14,3 +14,30 @@
 #     print("The value is float ")
 # else :
 #     print("The value is string")
+
+
+
+# Q3. Write a program to convert Celsius to Fahrenheit. Take the temperature in Celsius as input.
+# Formula: F = (C * 9/5) + 32
+# Example:
+# Input: C = 37
+# Output: F = 98.6
+
+# Input
+# celsius = float(input("Enter temperature in Celsius: "))
+
+# Conversion
+# fahrenheit = (celsius * 9 / 5) + 32
+
+# Output
+# print(f"{celsius}°C is equal to {fahrenheit}°F")
+
+
+# Take two numbers as input and perform all basic arithmetic operations: addition, subtraction, multiplication, division, and modulus.
+a , b = 10 , 5
+print(f"Value of a : {a}  \nValue of b : {b}")
+print(f"Addition : {a+b}")
+print(f"Subtraction : {a-b}")
+print(f"Multiplaction : {a*b}")
+print(f"Division : {a/b}")
+print(f"Modulus : {a%b}")
